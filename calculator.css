@@ -1,0 +1,146 @@
+table{
+	margin-top:15px;
+	width:100%;
+	height:30vh;
+}
+
+table,th,td {
+    border: 1px solid #A0A0A0;
+    border-collapse: collapse;
+    font-size: 90%;
+    padding:0px 0px 0px 5px;
+ 
+}
+th{
+	background-color: #DDDDDD;
+	text-align: left;
+}
+th, td{
+	padding-top:0.5vh;
+}
+
+h2{
+	padding-top: 0vh;
+	padding-bottom: 0vh;
+	margin-top: 5vh;
+	margin-bottom: 3vh; 
+}
+
+
+h4{
+	color: #A6182E;
+
+	padding-top: 0vh;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+	padding-bottom: 0vh;
+}
+
+input{
+	width:15%;
+}
+p{
+	padding: 0px 4px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	display:inline-block;
+}
+#container{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow:hidden;
+}
+
+
+#redbarL {
+
+	width:5vw;
+	height: 100vh;
+	left:0;
+	top:0;
+	float:left;
+	background-color: #A6182E;
+
+}
+
+#redbarR {
+	width:5vw;
+	height:100vh;
+	right:0;
+	top:0;
+	float:right;
+	background-color: #A6182E;
+
+}
+
+#barT {
+	width:90vw;
+	height:20px;
+	float:left;
+	background-color: #A6182E;
+
+
+}
+
+#barF{
+	position:absolute;
+	width:90vw;
+	height:20px;
+	bottom:0;
+	left:5vw;
+	background-color: #A6182E;
+
+}
+
+
+
+
+#content{
+	padding-left: 8vw;
+	padding-top: 5vh;
+}
+
+#box{
+	background-color: #E7EFF1;
+	width:80%;
+	height:90%;
+	padding-left:1vw;
+	padding-top: 0vh;
+	padding-right:1vw;
+	padding-bottom:1vh;
+	border:1px solid #CCCCCC;
+	float:left;
+}
+
+#button{
+	transition-duration:0.3s;
+	border-radius:5px;
+	background:#A6182E;
+	padding: 8px;
+	display:inline-block;
+	color:white;
+	text-align: center;
+	font-size: 80%;
+	width:70px;
+	float:right;
+	margin:3vh 1vw 3vh 1vw;
+}
+
+#button:hover{
+	background-color: red;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+  cursor:pointer;
+}
+

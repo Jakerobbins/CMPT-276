@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> </title>
+
+
+<link rel="stylesheet" href="calculator.css" type="text/css" />
+</head>
+
+<body style="background-color:white;">
+
+
+
+<script type="text/javascript" src="calculator.js"></script>
+
+
+
+<div id="container">
+
+
+	
+	<div id="redbarL"></div>
+	<div id="redbarR"></div>
+	<div id="barT"></div>
+
+	<div id="barF" ></div>
+
+	<div id="content">
+
+
+	<h2>Grade Calculator</h2>
+
+
+
+	<div id="box">
+
+	<h4>Activities</h4>
+	<p>Give grades to the numeric activities.</p>
+
+
+
+	<table >
+	<tr>
+		<th style="width:60px">Name</th>
+		<th>Short Name</th>
+		<th>Grade</th>
+		<th style="width:15vw">Percentage</th>
+	</tr>
+	<tr>
+		<td>Activity 1</td>
+		<td>A1</td>
+		<td><form name = "A1"><input name="A1N"> / <input name="A1D"></form></td>
+		<td><p id="P1"></p></td>
+	</tr>
+	<tr>
+		<td>Activity 2</td>
+		<td>A2</td>
+		<td><form name = "A2"><input name="A2N"> / <input name="A2D"></form></td>
+		<td><p id="P2"></p></td>
+	</tr>
+	<tr>
+		<td>Activity 3</td>
+		<td>A3</td>
+		<td><form name = "A3"><input name="A3N"> / <input name="A3D"></form></td>
+		<td><p id="P3"></p></td>
+	</tr>
+	<tr>
+		<td>Activity 4</td>
+		<td>A4</td>
+		<td><form name= "A4"><input name="A4N"> / <input name="A4D"></form></td>
+		<td><p id="P4"></p></td>
+	</tr>
+	<tr>
+		<td><b>TOTAL</b></td>
+		<td></td>
+		<td></td>
+		<td><p id="Tot"></p></td>
+	</tr>
+
+	</table>
+
+
+
+
+
+
+	<div id="button" onclick="meanFunction()">
+		<p class="noselect">MEAN</p>
+	</div>
+
+	<div id="button" onclick="avgFunction()">
+		<p class="noselect">AVERAGE</p>
+	</div>
+
+
+
+
+
+	
+
+
+
+	</div>
+	
+
+	</div>
+
+
+</div> 
+
+
+</body>
+</html>
