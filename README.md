@@ -12,3 +12,4 @@ Error Checking:
 
 Display:
 7) Page layout responds to resizing of window, moving and resizing some elements.
+8) Percentage calculations all accurate to one decimal place.
