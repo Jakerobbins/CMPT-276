@@ -14,7 +14,7 @@ function meanFunction(){
 	var sum = 0;
 
 
-	if(   N1>0   && D1>0 ){  //IF NUMERATOR & DENOMINATOR ARE VALID
+	if(   N1>=0   && D1>0 ){  //IF NUMERATOR & DENOMINATOR ARE VALID
 		var Pe1=(N1/D1)*100;
 		document.getElementById("P1").innerHTML =Pe1.toFixed(1) + "%";
 		count=count+1;
@@ -33,7 +33,7 @@ function meanFunction(){
 
 
 
-	if(   N2>0   && D2>0 ){
+	if(   N2>=0   && D2>0 ){
 		var Pe2=(N2/D2)*100;
 		document.getElementById("P2").innerHTML =Pe2.toFixed(1) + "%";
 		count=count+1;
@@ -50,7 +50,7 @@ function meanFunction(){
 	}
 
 
-	if(   N3>0   && D3>0 ){
+	if(   N3>=0   && D3>0 ){
 		var Pe3=(N3/D3)*100;
 		document.getElementById("P3").innerHTML =Pe3.toFixed(1) + "%";
 		count=count+1;
@@ -68,7 +68,7 @@ function meanFunction(){
 
 
 
-	if(   N4>0   && D4>0 ){
+	if(   N4>=0   && D4>0 ){
 		var Pe4=(N4/D4)*100;
 		document.getElementById("P4").innerHTML =Pe4.toFixed(1) + "%";
 		count=count+1;
@@ -112,8 +112,8 @@ else{
 
 function avgFunction(){
 //READS VALUES FROM ALL FORMS
-	var N1= Number(document.forms["A1"]["A1N"].value);
-	var D1= Number(document.forms["A1"]["A1D"].value);
+	var N1= (document.forms["A1"]["A1N"].value);
+	var D1= (document.forms["A1"]["A1D"].value);
 	var N2= Number(document.forms["A2"]["A2N"].value);
 	var D2= Number(document.forms["A2"]["A2D"].value);
 	var N3= Number(document.forms["A3"]["A3N"].value);
@@ -127,7 +127,7 @@ function avgFunction(){
 	var dom=0;
 
 
-	if(   N1>0   && D1>0 ){  //IF NUMERATOR & DENOMINATOR ARE VALID
+	if(   N1>=0   && D1>0 ){  //IF NUMERATOR & DENOMINATOR ARE VALID
 		var Pe1=(N1/D1)*100;
 		document.getElementById("P1").innerHTML =Pe1.toFixed(1) + "%";
 		nom = nom+N1;
@@ -146,7 +146,7 @@ function avgFunction(){
 
 
 
-	if(   N2>0   && D2>0 ){
+	if(   N2>=0   && D2>0 ){
 		var Pe2=(N2/D2)*100;
 		document.getElementById("P2").innerHTML =Pe2.toFixed(1) + "%";
 		nom = nom + N2;
@@ -163,7 +163,7 @@ function avgFunction(){
 	}
 
 
-	if(   N3>0   && D3>0 ){
+	if(   N3>=0   && D3>0 ){
 		var Pe3=(N3/D3)*100;
 		document.getElementById("P3").innerHTML =Pe3.toFixed(1) + "%";
 		nom = nom+N3;
@@ -181,7 +181,7 @@ function avgFunction(){
 
 
 
-	if(   N4>0   && D4>0 ){
+	if(   N4>=0   && D4>0 ){
 		var Pe4=(N4/D4)*100;
 		document.getElementById("P4").innerHTML =Pe4.toFixed(1) + "%";
 		nom = nom+N4;
